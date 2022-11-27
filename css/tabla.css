@@ -1,0 +1,136 @@
+/*
+	Color fondo: #632432;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;
+*/
+
+
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+input:focus{
+	background-color: #EED;
+}
+
+.th-clean{
+ text-align:center;
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.table-clean{
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th{
+	text-align:center;
+	background-color: #246355;
+	
+	color: white;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(odd){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+.errores{
+  -webkit-boxshadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background: red;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: none;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-left: 160px;
+  padding: 2px;
+  position: absolute;
+}
+
+#mensajefull{
+  
+  color: red;
+  display: none;
+  font-size: 12px;
+  margin-top: -26px;
+  margin-left: 50px;
+  padding: 4px;
+  position: absolute;
+}
+
+.errores2{
+  -webkit-boxshadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background: red;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: none;
+  font-size: 12px;
+  margin-top: -26px;
+  margin-left: 255px;
+  padding: 4px;
+  position: absolute;
+}
+
+
+.map {
+        width: 30%;
+        height: 50%;
+      }
+      .coords{width: 300px;}
+
+.panelc{
+  background-color: #265;
+  color: white;
+}
+
+
+
+
+
+.sinbordefondo {
+  background-color: #fff;
+  border: 0;
+}
+
+#labelTasa{
+  margin-top: 20px;
+}
+
+
+.textTablax{
+  font-size:  16px;
+   font-weight: bold;
+}
+
+.card-border--yellow{
+border-color: #F4D03F;
+}
+
+

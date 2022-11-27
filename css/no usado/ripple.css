@@ -1,0 +1,38 @@
+/* Caja del botón */
+.waves {
+  position: relative;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+/* Caja de las ondas*/
+.waves-ripple {
+  display: block;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+/* Animación para la caja de las ondas*/
+.waves-animate {
+  -webkit-animation: waves_ripple-animate 0.5s linear;
+          animation: waves_ripple-animate 0.5s linear;
+}
+
+@-webkit-keyframes waves_ripple-animate {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2.5);
+            transform: scale(2.5);
+  }
+}
+
+@keyframes waves_ripple-animate {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2.5);
+            transform: scale(2.5);
+  }
+}

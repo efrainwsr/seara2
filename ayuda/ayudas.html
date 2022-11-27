@@ -1,0 +1,37 @@
+<!DOCTYPE html>	
+<html>
+	<header>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/		bootstrap.min.css" integrity="		sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="		anonymous">
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+		<script src="../js/funciones.js"></script>
+
+
+	</header>
+
+	<body>
+			<div class="input-group has-error">
+  			<span class="input-group-addon" id="basic-addon1">Nombre</span>
+ 			<input type="text" name="nombre" id="nombre" maxlength="30" class="form-control "placeholder="Juan" onkeypress="return soloLetras(event)"/>
+  			<div id="mensaje1" class="errores"> Campo Requerido</div>
+			</div>
+
+			
+
+	</body>
+
+	<script>
+
+		function comprobar(){
+			var nombre = document.getElementsByName("nombre");
+			//myDiv.classList.replace("bg_1", "bg_2");
+			console.log(nombre);
+		}
+	</script>
+
+</html>
+
+
